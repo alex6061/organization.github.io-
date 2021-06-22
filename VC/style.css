@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #30bae7;
+}
+
+.heading {
+    width: 100%;
+    height: 50px;
+    background-color: #476FC6;
+    margin-bottom: 15px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.header__img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.header_info {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_info li {
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.header_info a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.grid_information {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.section {
+
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.skills {
+    display: block;
+    text-align: center;
+}
+
+.skills li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+
+.target {
+    background-color: #ffdd99;
+    padding: 20px 0 20px;
+}
+
+h4 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+@media (max-width: 768px) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+.card__img {
+    width: 100px;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #476FC6;
+    padding-bottom: 70px;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.contacts_info {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.contacts_info:hover {
+    color: orange;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
